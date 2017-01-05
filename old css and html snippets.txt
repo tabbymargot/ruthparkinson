@@ -1,0 +1,74 @@
+/* ---------Customisation for home page--------- */
+ 
+ .page-id-54 .entry-title {
+	display: none;
+ }
+ 
+ .post-54 .entry-header::after {
+    border-bottom: 0px ;
+}
+/* 
+ 
+ .action-calls2 {
+ 	text-align: center;
+	color: #fff;
+	border-style: solid;
+	border-radius: 10px;
+	padding: 20px 0px;
+ }
+ 
+ */
+ .action-call-color-1 {
+	background-color: #205988; 
+ }
+ 
+ .action-call-color-2 {
+	background-color: #385771; 
+ }
+ 
+ .action-call-color-3 {
+	background-color: #465662; 
+ }
+
+ .action-call-color-1:hover {
+ 	background-color: #6E4830;
+	border: 2px solid #6E4830;
+	color: #fff;
+ }
+ 
+  .action-call-color-2:hover {
+ 	background-color: #644a3a;
+	border: 2px solid #644a3a;
+	color: #fff;
+ }
+ 
+  .action-call-color-3:hover {
+ 	background-color: #594d45;
+	border: 2px solid #594d45;
+	color: #fff;
+ }
+
+
+ /*
+ .action-calls2 {
+ 	text-align: center;
+	color: #fff;
+	border-width: 1px;
+	border-style: solid;
+	padding: 20px 20px;
+	margin: auto; 
+	max-width: 80%;
+ }
+
+ .action-call-color-1a {
+	background-color: rgba(0,0,0,0.4); 
+ }
+ 
+ .action-call-color-2a {
+	background-color: #385771; 
+ }
+ 
+ .action-call-color-3a {
+	background-color: #465662; 
+ }
+*/
