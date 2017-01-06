@@ -23,7 +23,7 @@
 			<p style="text-align: center; font-size: 16px;"><?php the_field('view_full_size_image'); ?></p>
 		</div>
 		<div>
-			<p style="font-weight: bold; text-align: center; font-size: 18px;">Price: <?php the_field('price'); ?></p>
+			<p style="font-weight: bold; text-align: center; font-size: 18px;"><?php the_field('status'); ?></p>
 		</div>
 			
 		<div class="artwork-text">
