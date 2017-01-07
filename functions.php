@@ -314,3 +314,17 @@ function add_class($output) {
 
 
 
+add_action('get_header', 'bwp_homepage_remove_genesis_nav');
+/**
+* Remove Primary Navigation Menu from Homepage
+* @author Davinder Singh Kainth
+* @Link http://www.basicwp.com/remove-primary-menu-pages-genesis/
+*/
+function bwp_homepage_remove_genesis_nav() {
+if ( is_home() ) {
+remove_action('genesis_before_header', 'genesis_do_nav');
+}
+}
+
+
+

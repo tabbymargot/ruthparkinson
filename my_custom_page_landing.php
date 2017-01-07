@@ -33,10 +33,6 @@ remove_action( 'genesis_header', 'genesis_header_markup_open', 5 );
 remove_action( 'genesis_header', 'genesis_do_header' );
 remove_action( 'genesis_header', 'genesis_header_markup_close', 15 );
 
-//* Remove navigation
-remove_action( 'genesis_header', 'genesis_do_nav', 12 );
-remove_action( 'genesis_header', 'genesis_do_subnav', 5 );
-
 //* Remove breadcrumbs
 remove_action( 'genesis_before_loop', 'genesis_do_breadcrumbs' );
 
