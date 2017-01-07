@@ -1815,6 +1815,51 @@ Site Footer
 	margin: 0 auto 25px auto;
 }
 
+/* ---------Customisation for galleries home page--------- */
+
+/*NB - figured out how to position overlay using a combo of http://bit.ly/2jezBwx and http://bit.ly/1TjKBYi and experimenting*/
+
+.ruth_gallery_container {
+	height: 350px;
+}
+
+.ruth_gallery_image {
+	width: 350px;
+	height: 350px;
+	margin: 20px auto;
+	position: relative; /*Facilitates positioning of the caption, as span.caption-content is set to absolute*/
+	
+}
+
+.ruth_gallery_image img {
+	height: 350px;
+}
+
+span.text-content {
+	position: absolute;
+	background: rgba(0,0,0,0.4);
+  display: table;
+  width: 350px;
+	height: 350px;
+  top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+opacity: 0;
+}
+
+span.text-content span {
+	color: #fff;
+	font-weight: normal;
+	display: table-cell;
+	text-align: center;
+  vertical-align: middle;
+}
+
+.ruth_gallery_image:hover span.text-content {
+	opacity: 1;
+}
 
 
 
@@ -1822,9 +1867,8 @@ Site Footer
 
 .my_caption .fl-photo-caption-hover {
 	background: rgb(0,0,0);/*fallback*/
-    background: rgba(0,0,0,0.4);
+  background: rgba(20,20,20,0.4);
  }
-
 
 
  /* ---------Customisation for single-artwork.php--------- */
