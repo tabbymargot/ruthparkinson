@@ -1085,7 +1085,7 @@ Site Navigation
 
 .genesis-nav-menu .sub-menu a:hover,
 .genesis-nav-menu .sub-menu li.current-menu-item > a {
-	background-color: #222;
+	background-color: #2a3039;
 }
 
 .genesis-nav-menu .sub-menu .sub-menu {
@@ -1837,16 +1837,16 @@ Site Footer
 
 span.text-content {
 	position: absolute;
-	background: rgba(0,0,0,0.4);
+	background: rgba(0,0,0,0.3);
   display: table;
   width: 350px;
 	height: 350px;
   top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-margin: auto;
-opacity: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	opacity: 1;
 }
 
 span.text-content span {
@@ -1858,7 +1858,11 @@ span.text-content span {
 }
 
 .ruth_gallery_image:hover span.text-content {
-	opacity: 1;
+	background: rgba(0,0,0,0.4);
+}
+
+.ruth_gallery_image:hover span.text-content span {
+	font-weight: bold;
 }
 
 
@@ -1867,7 +1871,7 @@ span.text-content span {
 
 .my_caption .fl-photo-caption-hover {
 	background: rgb(0,0,0);/*fallback*/
-  background: rgba(20,20,20,0.4);
+  background: rgba(0,0,0,0.4);
  }
 
 
@@ -2227,7 +2231,7 @@ Media Queries
 	}
 
 	.genesis-nav-menu.responsive-menu .sub-menu {
-		background-color: rgba(255, 255, 255, 0.05);
+		background-color: #2a3039;
 		left: auto;
 		opacity: 1;
 		position: relative;

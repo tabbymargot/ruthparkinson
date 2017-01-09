@@ -28,9 +28,6 @@
 			
 		<div class="artwork-text">
 			<p style="text-align: center;"><?php the_field('description'); ?></p>
-			<p class="centertext">
-			<a href="<?php bloginfo('url'); ?>/artwork">Back to Gallery</a>
-			</p>
 		</div>
 		
 	<?php endwhile; endif; ?>
