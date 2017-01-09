@@ -2366,9 +2366,37 @@ Media Queries
 
 }
 
+@media only screen and (max-width: 400px) {
+/*Resizes images galleries home page*/
+	
+	.ruth_gallery_container {
+		height: 330px;
+	}
+
+	.ruth_gallery_image {
+		width: 330px;
+		height: 330px;
+	}
+
+	.ruth_gallery_image img {
+		height: 330px;
+	}
+
+	span.text-content {
+		width: 330px;
+		height: 330px;
+	}
+	
+}
 
 
+@media only screen and (max-height: 390px) {
 
+/*Repositions and resizes text home page*/
+	.page-id-114 .site-inner {
+		margin-top: 0px;
+	}
+}
 /*Repositions and resizes text home page*/
 @media only screen and (max-width: 358px) {
 
@@ -2386,13 +2414,28 @@ Media Queries
 
 
 }
-
-/*Repositions and resizes text home page*/
-@media only screen and (max-height: 390px) {
 	
-	.page-id-114 .site-inner {
-		margin-top: 0px;
+@media only screen and (max-width: 350px) {
+/*Resizes images galleries home page*/
+	
+	.ruth_gallery_container {
+		height: 280px;
 	}
+
+	.ruth_gallery_image {
+		width: 280px;
+		height: 280px;
+	}
+
+	.ruth_gallery_image img {
+		height: 280px;
+	}
+
+	span.text-content {
+		width: 280px;
+		height: 280px;
+	}
+
 
 }
 

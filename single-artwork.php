@@ -22,13 +22,14 @@
 			<div class="artwork-text">
 			<p style="text-align: center; font-size: 16px;"><?php the_field('view_full_size_image'); ?></p>
 		</div>
+		<div class="artwork-text">
+			<p style="text-align: center;"><?php the_field('description'); ?></p>
+		</div>
 		<div>
 			<p style="font-weight: bold; text-align: center; font-size: 18px;"><?php the_field('status'); ?></p>
 		</div>
 			
-		<div class="artwork-text">
-			<p style="text-align: center;"><?php the_field('description'); ?></p>
-		</div>
+		
 		
 	<?php endwhile; endif; ?>
 
