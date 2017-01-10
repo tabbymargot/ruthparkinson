@@ -1942,7 +1942,7 @@ To center form in page see https://wordpress.org/support/topic/center-contact-fo
 
 .wpcf7 input[type="text"],
 .wpcf7 input[type="email"] {
-	max-height: 30px;
+	max-height: 50px;
 }
 
 .wpcf7 textarea {
@@ -1954,6 +1954,7 @@ To center form in page see https://wordpress.org/support/topic/center-contact-fo
 	border: 1px solid #e0e0e0; 
 	border-radius: 2px;
 	background: #e0e0e0;
+	padding: 3px;
 }
 
 .wpcf7-form .wpcf7-submit {
