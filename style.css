@@ -1964,6 +1964,7 @@ To center form in page see https://wordpress.org/support/topic/center-contact-fo
 	color: #fff;
 	display: block;
 	margin: auto;
+	padding: 15px 25px;
 }
 /*Using !important is the ONLY way this will override the plugin CSS*/
 div.wpcf7-response-output {
