@@ -1138,7 +1138,7 @@ Site Navigation
 
 .nav-primary {
 	text-align: center;
-	font-family: "Open Sans"; serif;
+	font-family: "Open Sans", serif;
 }
 
 .nav-primary .genesis-nav-menu {
@@ -1754,7 +1754,7 @@ Site Footer
 }
 
 .page-id-114 .entry {
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 .ruth-intro {
@@ -1767,7 +1767,7 @@ Site Footer
 .ruth-intro-start {
 	font-size: 90px;
 	text-transform: lowercase;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 .ruth-intro-middle {
@@ -1789,7 +1789,7 @@ Site Footer
  }
 
  .page-id-48 .entry {
- 	margin-bottom: 0px;
+ 	margin-bottom: 0;
  }
 
 /* ---------Customisation for projects page id 292--------- */
@@ -1888,7 +1888,7 @@ span.text-content span {
 
  .art-title::after,
  .artwork::after {
- 	border-bottom: 0px solid #000;
+ 	border-bottom: 0 solid #000;
     content: "";
     display: block;
     margin: 0 auto 10px;
@@ -1897,7 +1897,7 @@ span.text-content span {
  }
 
   .artwork::after {
-  	padding-bottom: 0px;
+  	padding-bottom: 0;
   }
 
 /*Use this instead of setting image size in WP, as avoids a blurry image*/
@@ -1932,7 +1932,7 @@ To center form in page see https://wordpress.org/support/topic/center-contact-fo
 
 .form-wrap-div {
 	width: 400px; 
-	margin: 0px auto
+	margin: 0 auto;
 }
 
 .wpcf7 {
@@ -2359,7 +2359,7 @@ Media Queries
 
 	.form-wrap-div {
 		width: auto; 
-		margin: 0px auto
+		margin: 0 auto;
 	}
 		
 	.wpcf7 {
@@ -2396,7 +2396,7 @@ Media Queries
 
 /*Repositions and resizes text home page*/
 	.page-id-114 .site-inner {
-		margin-top: 0px;
+		margin-top: 0;
 	}
 }
 /*Repositions and resizes text home page*/
