@@ -326,5 +326,14 @@ remove_action('genesis_before_header', 'genesis_do_nav');
 }
 }
 
+/*** Remove Query String from Static Resources - see http://bit.ly/1DdruWg***/
+function remove_cssjs_ver( $src ) {
+ if( strpos( $src, '?ver=' ) )
+ $src = remove_query_arg( 'ver', $src );
+ return $src;
+}
+add_filter( 'style_loader_src', 'remove_cssjs_ver', 10, 2 );
+add_filter( 'script_loader_src', 'remove_cssjs_ver', 10, 2 );
+
 
 
