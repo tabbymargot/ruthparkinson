@@ -300,7 +300,11 @@ function remove_homepage_title_and_footer() {
 //* Change the footer text (from http://my.studiopress.com/snippets/footer/)
 add_filter('genesis_footer_creds_text', 'sp_footer_creds_filter');
 function sp_footer_creds_filter( $creds ) {
-	$creds = '[footer_copyright] RUTH PARKINSON &middot; WEBSITE BY <a href="http://www.carolinemarie.co.uk">Caroline Marie Web Design</a> ';
+	$creds = '<p>
+	<a href="https://www.instagram.com/ruthparkinsonart/" target="_blank"><i class="fa fa-instagram fa-3x footer-padding"></i></a>
+	<a href="https://twitter.com/rparkinsonart" target="_blank"><i class="fa fa-twitter fa-3x footer-padding"></i></a>
+	</p>
+	<p>[footer_copyright] RUTH PARKINSON &middot; WEBSITE BY <a href="http://www.carolinemarie.co.uk">Caroline Marie Web Design</a></p> ';
 	return $creds;
 }
 
@@ -334,6 +338,3 @@ function remove_cssjs_ver( $src ) {
 }
 add_filter( 'style_loader_src', 'remove_cssjs_ver', 10, 2 );
 add_filter( 'script_loader_src', 'remove_cssjs_ver', 10, 2 );
-
-
-
